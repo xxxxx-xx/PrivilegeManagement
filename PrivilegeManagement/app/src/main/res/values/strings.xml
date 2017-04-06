@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PrivilegeManagement</string>
+    <string name="rationale_camera">这是相机的权限</string>
+    <string name="rationale_location_contacts">这是位置和联系人的权限</string>
+    <string name="has_read_sms_permission">Has read sms permission: %b</string>
+    <string name="rationale_sms">这是短信的权限.</string>
+    <string name="returned_from_app_settings_to_activity">请到应用程序开启权限</string>
+</resources>

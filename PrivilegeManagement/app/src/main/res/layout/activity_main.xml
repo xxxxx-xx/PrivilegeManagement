@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.privilege.privilegemanagement.MainActivity">
+
+    <Button
+        android:id="@+id/button_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="相机" />
+
+    <Button
+        android:id="@+id/button_location_and_wifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="位置和联系人" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="下面为Fragment，会回调到Activity中的onRequestPermissionsResult,所以会弹两次。使用时要注意"
+        android:textSize="17sp" />
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.example.privilege.privilegemanagement.MainFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/activity_fragment" />
+
+</LinearLayout>
